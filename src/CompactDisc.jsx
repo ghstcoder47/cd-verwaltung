@@ -1,10 +1,12 @@
 import * as React from 'react';
 
+import './CompactDisc.css'
+
 export default function CompactDisc() {
 
-    
+
     return (
-        <div className="CD">
+        <div className="compactdisc">
             <h1>CD</h1>
             <img alt="AlbumCover" height="200" width="200"
                 src={`${process.env.PUBLIC_URL}/placeholder.png`} />
@@ -21,6 +23,11 @@ export default function CompactDisc() {
                     <tr><td>Erscheinungsjahr</td><td>1990</td></tr>
                 </tbody>
             </table>
+            <div className="controlls">
+                <button>OK</button>
+                <button>Edit</button>
+                <button>Cancel</button>
+            </div>
         </div>
     );
 }
