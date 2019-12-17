@@ -4,7 +4,7 @@ Die App ist ein Beispiel für eine React Anwendung, mit der CDs verwalted werden
 
 CD Verwaltung
 
-Typ: [Album, Single]
+Typ: [Album, Single] => zb auswahl über combobox oder radio button
 Interpret: John Doe
 Titel: my album
 Genre: Dance
