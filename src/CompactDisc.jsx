@@ -1,6 +1,8 @@
 import * as React from 'react';
 
 export default function CompactDisc() {
+
+    
     return (
         <div className="CD">
             <h1>CD</h1>
@@ -19,7 +21,6 @@ export default function CompactDisc() {
                     <tr><td>Erscheinungsjahr</td><td>1990</td></tr>
                 </tbody>
             </table>
-
         </div>
     );
 }
